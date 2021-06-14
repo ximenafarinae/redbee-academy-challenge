@@ -20,8 +20,9 @@ Fork the repository and share the solution with:
 * Mapsi (maxi.britez@redb.ee)
 * Dal (dalma.diaz@redb.ee)
 
-![Mapsi](https://lh3.googleusercontent.com/a-/AOh14GixW8eJJarUkQQ2Jf8FoV1CkLJnl-JYJOcUtcJE1g=s48-c-k-no)
+
 ![Caro](https://lh3.googleusercontent.com/a-/AOh14Gh6gU2tOvjdYpfEE8MhGrsKYGZKBXNpGskuAC4g=s48-c-k-no)
+![Mapsi](https://lh3.googleusercontent.com/a-/AOh14GixW8eJJarUkQQ2Jf8FoV1CkLJnl-JYJOcUtcJE1g=s48-c-k-no)
 ![Dal](https://lh3.googleusercontent.com/a-/AOh14Gg55nS_Wg0FYhiVA4zA_4FQ65gW5vRX_K_M3c_N=s48-c-k-no)
 
 
