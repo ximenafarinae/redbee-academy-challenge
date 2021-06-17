@@ -12,12 +12,19 @@ public class CompareNumbers {
    * @return The max of a, b and c
    */
   public static Integer max(Integer a, Integer b, Integer c) {
-    if (a > b && a > c) {
+    Integer result = nullSafeMax(a, b);
+    result = nullSafeMax(result, c);
+    return result;
+  }
+
+  private static Integer nullSafeMax(Integer a, Integer b) {
+    if (a != null && b != null) {
+      return Math.max(a, b);
+    } else if (a != null) {
       return a;
-    } else if (b > a && b > c) {
-      return b;
     } else {
-      return c;
+      return b;
     }
   }
 }
+
