@@ -15,19 +15,21 @@ public class CompareArrayNumbers {
    */
   public static List<Integer> max(List<Integer> a, List<Integer> b) {
     var result = new ArrayList<Integer>();
-    result.add(max(a));
-    result.add(max(b));
-    return result;
-  }
-
-  private static Integer max(List<Integer> array) {
-    Integer max = 0;
-    for (int number : array) {
-      if (number > max) {
-        max = number;
+    var shortest = a.size() < b.size() ? a : b;
+    var longer = a.size() > b.size() ? a : b;
+    int i;
+    for (i = 0; i < shortest.size(); i++) {
+      if (a.get(i) > b.get(i)) {
+        result.add(a.get(i));
+      } else {
+        result.add(b.get(i));
       }
     }
-    return max;
+
+    for (int j = i; j < longer.size(); j++) {
+      result.add(longer.get(j));
+    }
+    return result;
   }
 
 
